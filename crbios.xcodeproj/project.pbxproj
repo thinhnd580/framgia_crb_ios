@@ -14,6 +14,9 @@
 		307B5D991D2DE4D90084B307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 307B5D981D2DE4D90084B307 /* Assets.xcassets */; };
 		307B5D9C1D2DE4D90084B307 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 307B5D9A1D2DE4D90084B307 /* LaunchScreen.storyboard */; };
 		30D4D2361D2DE98300C6D2CB /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D4D2351D2DE98300C6D2CB /* RootViewController.m */; };
+		30F7909A1D2DFDAC008A74E7 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F790991D2DFDAC008A74E7 /* LoginViewController.m */; };
+		30F790A01D2DFED4008A74E7 /* ic_email.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F7909E1D2DFED4008A74E7 /* ic_email.png */; };
+		30F790A11D2DFED4008A74E7 /* ic_password.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F7909F1D2DFED4008A74E7 /* ic_password.png */; };
 		A109F9BCB3F704F693274283 /* libPods-crbios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC63C8C7EA304446B1C5238C /* libPods-crbios.a */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +34,10 @@
 		307B5D9D1D2DE4D90084B307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30D4D2341D2DE98300C6D2CB /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = Classes/ViewController/RootViewController/RootViewController.h; sourceTree = "<group>"; };
 		30D4D2351D2DE98300C6D2CB /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = Classes/ViewController/RootViewController/RootViewController.m; sourceTree = "<group>"; };
+		30F790981D2DFDAC008A74E7 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = Classes/ViewController/LoginViewController/LoginViewController.h; sourceTree = "<group>"; };
+		30F790991D2DFDAC008A74E7 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = Classes/ViewController/LoginViewController/LoginViewController.m; sourceTree = "<group>"; };
+		30F7909E1D2DFED4008A74E7 /* ic_email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_email.png; path = Resource/Images/ic_email.png; sourceTree = "<group>"; };
+		30F7909F1D2DFED4008A74E7 /* ic_password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_password.png; path = Resource/Images/ic_password.png; sourceTree = "<group>"; };
 		FC63C8C7EA304446B1C5238C /* libPods-crbios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-crbios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -93,6 +100,7 @@
 		30D4D22B1D2DE79D00C6D2CB /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				30F7909B1D2DFE2F008A74E7 /* Images */,
 			);
 			name = Resource;
 			sourceTree = "<group>";
@@ -125,6 +133,7 @@
 		30D4D2301D2DE82100C6D2CB /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				30F790971D2DFD7D008A74E7 /* LoginViewController */,
 				30D4D2331D2DE8DD00C6D2CB /* RootViewController */,
 			);
 			name = ViewController;
@@ -151,6 +160,24 @@
 				30D4D2351D2DE98300C6D2CB /* RootViewController.m */,
 			);
 			name = RootViewController;
+			sourceTree = "<group>";
+		};
+		30F790971D2DFD7D008A74E7 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				30F790981D2DFDAC008A74E7 /* LoginViewController.h */,
+				30F790991D2DFDAC008A74E7 /* LoginViewController.m */,
+			);
+			name = LoginViewController;
+			sourceTree = "<group>";
+		};
+		30F7909B1D2DFE2F008A74E7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				30F7909E1D2DFED4008A74E7 /* ic_email.png */,
+				30F7909F1D2DFED4008A74E7 /* ic_password.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 		77C12AE4E508100260362593 /* Frameworks */ = {
@@ -204,7 +231,7 @@
 				TargetAttributes = {
 					307B5D851D2DE4D80084B307 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = Z4ZNZ62PTW;
+						DevelopmentTeam = R8ZB26EDKD;
 					};
 				};
 			};
@@ -233,6 +260,8 @@
 			files = (
 				307B5D9C1D2DE4D90084B307 /* LaunchScreen.storyboard in Resources */,
 				307B5D991D2DE4D90084B307 /* Assets.xcassets in Resources */,
+				30F790A11D2DFED4008A74E7 /* ic_password.png in Resources */,
+				30F790A01D2DFED4008A74E7 /* ic_email.png in Resources */,
 				307B5D941D2DE4D90084B307 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,6 +325,7 @@
 				307B5D8E1D2DE4D90084B307 /* AppDelegate.m in Sources */,
 				30D4D2361D2DE98300C6D2CB /* RootViewController.m in Sources */,
 				307B5D8B1D2DE4D90084B307 /* main.m in Sources */,
+				30F7909A1D2DFDAC008A74E7 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,10 +439,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = crbios/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.framgia.crbios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -422,10 +454,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = crbios/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.framgia.crbios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

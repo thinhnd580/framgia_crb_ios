@@ -13,10 +13,20 @@
 		307B5D971D2DE4D90084B307 /* crbios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 307B5D951D2DE4D90084B307 /* crbios.xcdatamodeld */; };
 		307B5D991D2DE4D90084B307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 307B5D981D2DE4D90084B307 /* Assets.xcassets */; };
 		307B5D9C1D2DE4D90084B307 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 307B5D9A1D2DE4D90084B307 /* LaunchScreen.storyboard */; };
+		308E68671D2F41AA00F3AB26 /* background_material.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 308E68661D2F41AA00F3AB26 /* background_material.jpg */; };
+		308E68691D2F41B600F3AB26 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 308E68681D2F41B600F3AB26 /* profile.png */; };
+		308E686C1D2F469200F3AB26 /* ic_view_agenda_black_24dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 308E686A1D2F469200F3AB26 /* ic_view_agenda_black_24dp.png */; };
+		308E686D1D2F469200F3AB26 /* ic_view_module_black_24dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 308E686B1D2F469200F3AB26 /* ic_view_module_black_24dp.png */; };
+		308E686F1D2F48B300F3AB26 /* ic_send_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 308E686E1D2F48B300F3AB26 /* ic_send_black.png */; };
+		308E68711D2F492D00F3AB26 /* ic_color_lens_black_24dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 308E68701D2F492D00F3AB26 /* ic_color_lens_black_24dp.png */; };
+		308E68731D2F496E00F3AB26 /* ic_search_black_24dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 308E68721D2F496E00F3AB26 /* ic_search_black_24dp.png */; };
+		308E68751D2F4A1400F3AB26 /* ic_settings_black_24dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 308E68741D2F4A1400F3AB26 /* ic_settings_black_24dp.png */; };
 		30D4D2361D2DE98300C6D2CB /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D4D2351D2DE98300C6D2CB /* RootViewController.m */; };
 		30F7909A1D2DFDAC008A74E7 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F790991D2DFDAC008A74E7 /* LoginViewController.m */; };
 		30F790A01D2DFED4008A74E7 /* ic_email.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F7909E1D2DFED4008A74E7 /* ic_email.png */; };
 		30F790A11D2DFED4008A74E7 /* ic_password.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F7909F1D2DFED4008A74E7 /* ic_password.png */; };
+		30F790A51D2E49AA008A74E7 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F790A41D2E49AA008A74E7 /* LeftViewController.m */; };
+		30F790A91D2E4A32008A74E7 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F790A81D2E4A32008A74E7 /* HomeViewController.m */; };
 		A109F9BCB3F704F693274283 /* libPods-crbios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC63C8C7EA304446B1C5238C /* libPods-crbios.a */; };
 /* End PBXBuildFile section */
 
@@ -32,12 +42,24 @@
 		307B5D981D2DE4D90084B307 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		307B5D9B1D2DE4D90084B307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		307B5D9D1D2DE4D90084B307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		308E68661D2F41AA00F3AB26 /* background_material.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background_material.jpg; path = Resource/Images/background_material.jpg; sourceTree = "<group>"; };
+		308E68681D2F41B600F3AB26 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile.png; path = Resource/Images/profile.png; sourceTree = "<group>"; };
+		308E686A1D2F469200F3AB26 /* ic_view_agenda_black_24dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_view_agenda_black_24dp.png; path = Resource/Images/ic_view_agenda_black_24dp.png; sourceTree = "<group>"; };
+		308E686B1D2F469200F3AB26 /* ic_view_module_black_24dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_view_module_black_24dp.png; path = Resource/Images/ic_view_module_black_24dp.png; sourceTree = "<group>"; };
+		308E686E1D2F48B300F3AB26 /* ic_send_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_send_black.png; path = Resource/Images/ic_send_black.png; sourceTree = "<group>"; };
+		308E68701D2F492D00F3AB26 /* ic_color_lens_black_24dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_color_lens_black_24dp.png; path = Resource/Images/ic_color_lens_black_24dp.png; sourceTree = "<group>"; };
+		308E68721D2F496E00F3AB26 /* ic_search_black_24dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_search_black_24dp.png; path = Resource/Images/ic_search_black_24dp.png; sourceTree = "<group>"; };
+		308E68741D2F4A1400F3AB26 /* ic_settings_black_24dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_settings_black_24dp.png; path = Resource/Images/ic_settings_black_24dp.png; sourceTree = "<group>"; };
 		30D4D2341D2DE98300C6D2CB /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = Classes/ViewController/RootViewController/RootViewController.h; sourceTree = "<group>"; };
 		30D4D2351D2DE98300C6D2CB /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = Classes/ViewController/RootViewController/RootViewController.m; sourceTree = "<group>"; };
 		30F790981D2DFDAC008A74E7 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = Classes/ViewController/LoginViewController/LoginViewController.h; sourceTree = "<group>"; };
 		30F790991D2DFDAC008A74E7 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = Classes/ViewController/LoginViewController/LoginViewController.m; sourceTree = "<group>"; };
 		30F7909E1D2DFED4008A74E7 /* ic_email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_email.png; path = Resource/Images/ic_email.png; sourceTree = "<group>"; };
 		30F7909F1D2DFED4008A74E7 /* ic_password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_password.png; path = Resource/Images/ic_password.png; sourceTree = "<group>"; };
+		30F790A31D2E49AA008A74E7 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeftViewController.h; path = Classes/ViewController/LeftViewController/LeftViewController.h; sourceTree = "<group>"; };
+		30F790A41D2E49AA008A74E7 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeftViewController.m; path = Classes/ViewController/LeftViewController/LeftViewController.m; sourceTree = "<group>"; };
+		30F790A71D2E4A32008A74E7 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = Classes/ViewController/HomeViewController/HomeViewController.h; sourceTree = "<group>"; };
+		30F790A81D2E4A32008A74E7 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = Classes/ViewController/HomeViewController/HomeViewController.m; sourceTree = "<group>"; };
 		FC63C8C7EA304446B1C5238C /* libPods-crbios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-crbios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -133,6 +155,8 @@
 		30D4D2301D2DE82100C6D2CB /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				30F790A61D2E4A15008A74E7 /* HomeViewController */,
+				30F790A21D2E4935008A74E7 /* LeftViewController */,
 				30F790971D2DFD7D008A74E7 /* LoginViewController */,
 				30D4D2331D2DE8DD00C6D2CB /* RootViewController */,
 			);
@@ -174,10 +198,36 @@
 		30F7909B1D2DFE2F008A74E7 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				308E68741D2F4A1400F3AB26 /* ic_settings_black_24dp.png */,
+				308E68721D2F496E00F3AB26 /* ic_search_black_24dp.png */,
+				308E68701D2F492D00F3AB26 /* ic_color_lens_black_24dp.png */,
+				308E686E1D2F48B300F3AB26 /* ic_send_black.png */,
+				308E686A1D2F469200F3AB26 /* ic_view_agenda_black_24dp.png */,
+				308E686B1D2F469200F3AB26 /* ic_view_module_black_24dp.png */,
+				308E68681D2F41B600F3AB26 /* profile.png */,
+				308E68661D2F41AA00F3AB26 /* background_material.jpg */,
 				30F7909E1D2DFED4008A74E7 /* ic_email.png */,
 				30F7909F1D2DFED4008A74E7 /* ic_password.png */,
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		30F790A21D2E4935008A74E7 /* LeftViewController */ = {
+			isa = PBXGroup;
+			children = (
+				30F790A31D2E49AA008A74E7 /* LeftViewController.h */,
+				30F790A41D2E49AA008A74E7 /* LeftViewController.m */,
+			);
+			name = LeftViewController;
+			sourceTree = "<group>";
+		};
+		30F790A61D2E4A15008A74E7 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				30F790A71D2E4A32008A74E7 /* HomeViewController.h */,
+				30F790A81D2E4A32008A74E7 /* HomeViewController.m */,
+			);
+			name = HomeViewController;
 			sourceTree = "<group>";
 		};
 		77C12AE4E508100260362593 /* Frameworks */ = {
@@ -260,9 +310,17 @@
 			files = (
 				307B5D9C1D2DE4D90084B307 /* LaunchScreen.storyboard in Resources */,
 				307B5D991D2DE4D90084B307 /* Assets.xcassets in Resources */,
+				308E686D1D2F469200F3AB26 /* ic_view_module_black_24dp.png in Resources */,
+				308E686C1D2F469200F3AB26 /* ic_view_agenda_black_24dp.png in Resources */,
+				308E68671D2F41AA00F3AB26 /* background_material.jpg in Resources */,
+				308E686F1D2F48B300F3AB26 /* ic_send_black.png in Resources */,
 				30F790A11D2DFED4008A74E7 /* ic_password.png in Resources */,
 				30F790A01D2DFED4008A74E7 /* ic_email.png in Resources */,
 				307B5D941D2DE4D90084B307 /* Main.storyboard in Resources */,
+				308E68731D2F496E00F3AB26 /* ic_search_black_24dp.png in Resources */,
+				308E68691D2F41B600F3AB26 /* profile.png in Resources */,
+				308E68711D2F492D00F3AB26 /* ic_color_lens_black_24dp.png in Resources */,
+				308E68751D2F4A1400F3AB26 /* ic_settings_black_24dp.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,7 +382,9 @@
 				307B5D971D2DE4D90084B307 /* crbios.xcdatamodeld in Sources */,
 				307B5D8E1D2DE4D90084B307 /* AppDelegate.m in Sources */,
 				30D4D2361D2DE98300C6D2CB /* RootViewController.m in Sources */,
+				30F790A51D2E49AA008A74E7 /* LeftViewController.m in Sources */,
 				307B5D8B1D2DE4D90084B307 /* main.m in Sources */,
+				30F790A91D2E4A32008A74E7 /* HomeViewController.m in Sources */,
 				30F7909A1D2DFDAC008A74E7 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,7 +502,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = crbios/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.framgia.crbios;
+				PRODUCT_BUNDLE_IDENTIFIER = com.framgia.crbios2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -457,7 +517,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = crbios/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.framgia.crbios;
+				PRODUCT_BUNDLE_IDENTIFIER = com.framgia.crbios2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};

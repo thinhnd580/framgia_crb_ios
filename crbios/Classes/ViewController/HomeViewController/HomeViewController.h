@@ -1,5 +1,5 @@
 //
-//  RootViewController.h
+//  HomeViewController.h
 //  crbios
 //
 //  Created by  on 7/7/16.
@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <RESideMenu.h>
 
-@interface RootViewController : RESideMenu <RESideMenuDelegate>
+@interface HomeViewController : UIViewController
 
 @end

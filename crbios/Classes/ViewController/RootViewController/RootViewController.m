@@ -7,6 +7,8 @@
 //
 
 #import "RootViewController.h"
+#import "LeftViewController.h"
+#import "HomeViewController.h"
 
 @interface RootViewController ()
 
@@ -16,22 +18,25 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)awakeFromNib {
+    self.contentViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"NavigationViewController"];
+    self.leftMenuViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"LeftViewController"];
 }
 
-/*
-#pragma mark - Navigation
+#pragma mark - RESideMenu Delegate
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)sideMenu:(RESideMenu *)sideMenu willShowMenuViewController:(UIViewController *)menuViewController {
 }
-*/
+
+- (void)sideMenu:(RESideMenu *)sideMenu didShowMenuViewController:(UIViewController *)menuViewController {
+}
+
+- (void)sideMenu:(RESideMenu *)sideMenu willHideMenuViewController:(UIViewController *)menuViewController {
+}
+
+- (void)sideMenu:(RESideMenu *)sideMenu didHideMenuViewController:(UIViewController *)menuViewController {
+}
 
 @end

@@ -27,6 +27,7 @@
 - (IBAction)btnLogin:(id)sender {
     [self.view endEditing:YES];
     // TODO: Login
+    [self goHome];
 }
 
 - (IBAction)btnLoginFacebook:(id)sender {
@@ -37,6 +38,12 @@
 - (IBAction)btnLoginGoogle:(id)sender {
     [self.view endEditing:YES];
     // TODO: Login with Google
+}
+
+- (void)goHome {
+    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    UIViewController *vc = [sb instantiateViewControllerWithIdentifier:@"RootViewController"];
+    [self presentViewController:vc animated:YES completion:NULL];
 }
 
 @end

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		301B2FD21D3355F10018871C /* ic_search_white_36.png in Resources */ = {isa = PBXBuildFile; fileRef = 301B2FD11D3355F10018871C /* ic_search_white_36.png */; };
+		301B2FD61D3371500018871C /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 301B2FD51D3371500018871C /* SearchViewController.m */; };
 		307B5D8B1D2DE4D90084B307 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 307B5D8A1D2DE4D90084B307 /* main.m */; };
 		307B5D8E1D2DE4D90084B307 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 307B5D8D1D2DE4D90084B307 /* AppDelegate.m */; };
 		307B5D941D2DE4D90084B307 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 307B5D921D2DE4D90084B307 /* Main.storyboard */; };
@@ -21,6 +23,10 @@
 		308E68711D2F492D00F3AB26 /* ic_color_lens_black_24dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 308E68701D2F492D00F3AB26 /* ic_color_lens_black_24dp.png */; };
 		308E68731D2F496E00F3AB26 /* ic_search_black_24dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 308E68721D2F496E00F3AB26 /* ic_search_black_24dp.png */; };
 		308E68751D2F4A1400F3AB26 /* ic_settings_black_24dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 308E68741D2F4A1400F3AB26 /* ic_settings_black_24dp.png */; };
+		30B328831D2F929F006BC2EA /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 30B3287F1D2F929F006BC2EA /* Contents.json */; };
+		30B328841D2F929F006BC2EA /* Menu Filled-16.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B328801D2F929F006BC2EA /* Menu Filled-16.png */; };
+		30B328851D2F929F006BC2EA /* Menu Filled-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B328811D2F929F006BC2EA /* Menu Filled-32.png */; };
+		30B328861D2F929F006BC2EA /* Menu Filled-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B328821D2F929F006BC2EA /* Menu Filled-64.png */; };
 		30D4D2361D2DE98300C6D2CB /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D4D2351D2DE98300C6D2CB /* RootViewController.m */; };
 		30F7909A1D2DFDAC008A74E7 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F790991D2DFDAC008A74E7 /* LoginViewController.m */; };
 		30F790A01D2DFED4008A74E7 /* ic_email.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F7909E1D2DFED4008A74E7 /* ic_email.png */; };
@@ -33,6 +39,9 @@
 /* Begin PBXFileReference section */
 		0CB68B16C0819A73589F0BEA /* Pods-crbios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crbios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-crbios/Pods-crbios.debug.xcconfig"; sourceTree = "<group>"; };
 		135D21DEE043CEDCD7C26EAD /* Pods-crbios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crbios.release.xcconfig"; path = "Pods/Target Support Files/Pods-crbios/Pods-crbios.release.xcconfig"; sourceTree = "<group>"; };
+		301B2FD11D3355F10018871C /* ic_search_white_36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_search_white_36.png; path = Resource/Images/ic_search_white_36.png; sourceTree = "<group>"; };
+		301B2FD41D3371500018871C /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchViewController.h; path = Classes/ViewController/SearchViewController/SearchViewController.h; sourceTree = "<group>"; };
+		301B2FD51D3371500018871C /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchViewController.m; path = Classes/ViewController/SearchViewController/SearchViewController.m; sourceTree = "<group>"; };
 		307B5D861D2DE4D80084B307 /* crbios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = crbios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		307B5D8A1D2DE4D90084B307 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		307B5D8C1D2DE4D90084B307 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -50,6 +59,10 @@
 		308E68701D2F492D00F3AB26 /* ic_color_lens_black_24dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_color_lens_black_24dp.png; path = Resource/Images/ic_color_lens_black_24dp.png; sourceTree = "<group>"; };
 		308E68721D2F496E00F3AB26 /* ic_search_black_24dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_search_black_24dp.png; path = Resource/Images/ic_search_black_24dp.png; sourceTree = "<group>"; };
 		308E68741D2F4A1400F3AB26 /* ic_settings_black_24dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_settings_black_24dp.png; path = Resource/Images/ic_settings_black_24dp.png; sourceTree = "<group>"; };
+		30B3287F1D2F929F006BC2EA /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		30B328801D2F929F006BC2EA /* Menu Filled-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Menu Filled-16.png"; sourceTree = "<group>"; };
+		30B328811D2F929F006BC2EA /* Menu Filled-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Menu Filled-32.png"; sourceTree = "<group>"; };
+		30B328821D2F929F006BC2EA /* Menu Filled-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Menu Filled-64.png"; sourceTree = "<group>"; };
 		30D4D2341D2DE98300C6D2CB /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = Classes/ViewController/RootViewController/RootViewController.h; sourceTree = "<group>"; };
 		30D4D2351D2DE98300C6D2CB /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = Classes/ViewController/RootViewController/RootViewController.m; sourceTree = "<group>"; };
 		30F790981D2DFDAC008A74E7 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = Classes/ViewController/LoginViewController/LoginViewController.h; sourceTree = "<group>"; };
@@ -75,6 +88,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		301B2FD31D33711D0018871C /* SearchViewController */ = {
+			isa = PBXGroup;
+			children = (
+				301B2FD41D3371500018871C /* SearchViewController.h */,
+				301B2FD51D3371500018871C /* SearchViewController.m */,
+			);
+			name = SearchViewController;
+			sourceTree = "<group>";
+		};
 		307B5D7D1D2DE4D80084B307 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +125,7 @@
 				307B5D8D1D2DE4D90084B307 /* AppDelegate.m */,
 				307B5D921D2DE4D90084B307 /* Main.storyboard */,
 				307B5D981D2DE4D90084B307 /* Assets.xcassets */,
+				30B3287E1D2F929F006BC2EA /* Menu.imageset */,
 				307B5D9A1D2DE4D90084B307 /* LaunchScreen.storyboard */,
 				307B5D9D1D2DE4D90084B307 /* Info.plist */,
 				307B5D951D2DE4D90084B307 /* crbios.xcdatamodeld */,
@@ -117,6 +140,18 @@
 				307B5D8A1D2DE4D90084B307 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30B3287E1D2F929F006BC2EA /* Menu.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				30B3287F1D2F929F006BC2EA /* Contents.json */,
+				30B328801D2F929F006BC2EA /* Menu Filled-16.png */,
+				30B328811D2F929F006BC2EA /* Menu Filled-32.png */,
+				30B328821D2F929F006BC2EA /* Menu Filled-64.png */,
+			);
+			name = Menu.imageset;
+			path = Assets.xcassets/Menu.imageset;
 			sourceTree = "<group>";
 		};
 		30D4D22B1D2DE79D00C6D2CB /* Resource */ = {
@@ -155,6 +190,7 @@
 		30D4D2301D2DE82100C6D2CB /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				301B2FD31D33711D0018871C /* SearchViewController */,
 				30F790A61D2E4A15008A74E7 /* HomeViewController */,
 				30F790A21D2E4935008A74E7 /* LeftViewController */,
 				30F790971D2DFD7D008A74E7 /* LoginViewController */,
@@ -198,6 +234,7 @@
 		30F7909B1D2DFE2F008A74E7 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				301B2FD11D3355F10018871C /* ic_search_white_36.png */,
 				308E68741D2F4A1400F3AB26 /* ic_settings_black_24dp.png */,
 				308E68721D2F496E00F3AB26 /* ic_search_black_24dp.png */,
 				308E68701D2F492D00F3AB26 /* ic_color_lens_black_24dp.png */,
@@ -315,12 +352,17 @@
 				308E68671D2F41AA00F3AB26 /* background_material.jpg in Resources */,
 				308E686F1D2F48B300F3AB26 /* ic_send_black.png in Resources */,
 				30F790A11D2DFED4008A74E7 /* ic_password.png in Resources */,
+				30B328841D2F929F006BC2EA /* Menu Filled-16.png in Resources */,
 				30F790A01D2DFED4008A74E7 /* ic_email.png in Resources */,
 				307B5D941D2DE4D90084B307 /* Main.storyboard in Resources */,
 				308E68731D2F496E00F3AB26 /* ic_search_black_24dp.png in Resources */,
 				308E68691D2F41B600F3AB26 /* profile.png in Resources */,
+				30B328851D2F929F006BC2EA /* Menu Filled-32.png in Resources */,
+				30B328861D2F929F006BC2EA /* Menu Filled-64.png in Resources */,
 				308E68711D2F492D00F3AB26 /* ic_color_lens_black_24dp.png in Resources */,
 				308E68751D2F4A1400F3AB26 /* ic_settings_black_24dp.png in Resources */,
+				301B2FD21D3355F10018871C /* ic_search_white_36.png in Resources */,
+				30B328831D2F929F006BC2EA /* Contents.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +427,7 @@
 				30F790A51D2E49AA008A74E7 /* LeftViewController.m in Sources */,
 				307B5D8B1D2DE4D90084B307 /* main.m in Sources */,
 				30F790A91D2E4A32008A74E7 /* HomeViewController.m in Sources */,
+				301B2FD61D3371500018871C /* SearchViewController.m in Sources */,
 				30F7909A1D2DFDAC008A74E7 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

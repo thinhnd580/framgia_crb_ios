@@ -267,6 +267,26 @@
             </objects>
             <point key="canvasLocation" x="1031" y="404"/>
         </scene>
+        <!--Search View Controller-->
+        <scene sceneID="fsH-T2-79i">
+            <objects>
+                <viewController storyboardIdentifier="SearchViewController" id="TUs-fx-EPX" customClass="SearchViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3lN-YW-iEP"/>
+                        <viewControllerLayoutGuide type="bottom" id="7Pd-L8-WRR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kcT-m0-u5S">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="lFK-ui-Gsp"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vyd-lx-fua" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1507" y="1061"/>
+        </scene>
         <!--Home View Controller-->
         <scene sceneID="VZd-TU-6NK">
             <objects>
@@ -280,7 +300,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="0.94852851462228183" blue="0.91394491747561712" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="xDo-8R-yjp"/>
+                    <navigationItem key="navigationItem" id="xDo-8R-yjp">
+                        <barButtonItem key="leftBarButtonItem" image="Menu" id="cNo-or-dM7">
+                            <color key="tintColor" red="1" green="0.94852851459999998" blue="0.91394491749999995" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="presentLeftMenuViewController:" destination="Ve8-Ds-NQg" id="Wqc-3L-xkO"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="nEW-TL-ieF">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="TUs-fx-EPX" kind="push" id="AYR-Gc-oOr"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R20-2p-mXK" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -493,6 +526,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Menu" width="16" height="16"/>
         <image name="background_material.jpg" width="394" height="301"/>
         <image name="ic_color_lens_black_24dp.png" width="96" height="96"/>
         <image name="ic_email.png" width="36" height="36"/>

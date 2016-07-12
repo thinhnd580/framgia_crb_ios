@@ -21,6 +21,8 @@
 }
 
 - (void)awakeFromNib {
+    self.scaleContentView = NO;
+    self.scaleMenuView = NO;
     self.contentViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"NavigationViewController"];
     self.leftMenuViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"LeftViewController"];
 }

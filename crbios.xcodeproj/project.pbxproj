@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		301B2FD21D3355F10018871C /* ic_search_white_36.png in Resources */ = {isa = PBXBuildFile; fileRef = 301B2FD11D3355F10018871C /* ic_search_white_36.png */; };
 		301B2FD61D3371500018871C /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 301B2FD51D3371500018871C /* SearchViewController.m */; };
+		307A80D01D363868006FAA16 /* CustomCellDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 307A80CF1D363868006FAA16 /* CustomCellDay.m */; };
+		307A80D31D363887006FAA16 /* CustomCellContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 307A80D21D363887006FAA16 /* CustomCellContent.m */; };
+		307A80D91D363AFD006FAA16 /* CustomCellHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 307A80D81D363AFD006FAA16 /* CustomCellHeader.m */; };
 		307B5D8B1D2DE4D90084B307 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 307B5D8A1D2DE4D90084B307 /* main.m */; };
 		307B5D8E1D2DE4D90084B307 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 307B5D8D1D2DE4D90084B307 /* AppDelegate.m */; };
 		307B5D941D2DE4D90084B307 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 307B5D921D2DE4D90084B307 /* Main.storyboard */; };
@@ -28,6 +31,7 @@
 		30B328851D2F929F006BC2EA /* Menu Filled-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B328811D2F929F006BC2EA /* Menu Filled-32.png */; };
 		30B328861D2F929F006BC2EA /* Menu Filled-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B328821D2F929F006BC2EA /* Menu Filled-64.png */; };
 		30D4D2361D2DE98300C6D2CB /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D4D2351D2DE98300C6D2CB /* RootViewController.m */; };
+		30EF8AB01D347F3A00E00188 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30EF8AAF1D347F3A00E00188 /* bg.jpg */; };
 		30F7909A1D2DFDAC008A74E7 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F790991D2DFDAC008A74E7 /* LoginViewController.m */; };
 		30F790A01D2DFED4008A74E7 /* ic_email.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F7909E1D2DFED4008A74E7 /* ic_email.png */; };
 		30F790A11D2DFED4008A74E7 /* ic_password.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F7909F1D2DFED4008A74E7 /* ic_password.png */; };
@@ -42,6 +46,12 @@
 		301B2FD11D3355F10018871C /* ic_search_white_36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_search_white_36.png; path = Resource/Images/ic_search_white_36.png; sourceTree = "<group>"; };
 		301B2FD41D3371500018871C /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchViewController.h; path = Classes/ViewController/SearchViewController/SearchViewController.h; sourceTree = "<group>"; };
 		301B2FD51D3371500018871C /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchViewController.m; path = Classes/ViewController/SearchViewController/SearchViewController.m; sourceTree = "<group>"; };
+		307A80CE1D363868006FAA16 /* CustomCellDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomCellDay.h; path = Classes/ViewController/HomeViewController/CustomCellDay.h; sourceTree = "<group>"; };
+		307A80CF1D363868006FAA16 /* CustomCellDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomCellDay.m; path = Classes/ViewController/HomeViewController/CustomCellDay.m; sourceTree = "<group>"; };
+		307A80D11D363887006FAA16 /* CustomCellContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomCellContent.h; path = Classes/ViewController/HomeViewController/CustomCellContent.h; sourceTree = "<group>"; };
+		307A80D21D363887006FAA16 /* CustomCellContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomCellContent.m; path = Classes/ViewController/HomeViewController/CustomCellContent.m; sourceTree = "<group>"; };
+		307A80D71D363AFD006FAA16 /* CustomCellHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellHeader.h; sourceTree = "<group>"; };
+		307A80D81D363AFD006FAA16 /* CustomCellHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellHeader.m; sourceTree = "<group>"; };
 		307B5D861D2DE4D80084B307 /* crbios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = crbios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		307B5D8A1D2DE4D90084B307 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		307B5D8C1D2DE4D90084B307 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -65,6 +75,7 @@
 		30B328821D2F929F006BC2EA /* Menu Filled-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Menu Filled-64.png"; sourceTree = "<group>"; };
 		30D4D2341D2DE98300C6D2CB /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = Classes/ViewController/RootViewController/RootViewController.h; sourceTree = "<group>"; };
 		30D4D2351D2DE98300C6D2CB /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = Classes/ViewController/RootViewController/RootViewController.m; sourceTree = "<group>"; };
+		30EF8AAF1D347F3A00E00188 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bg.jpg; path = Resource/Images/bg.jpg; sourceTree = "<group>"; };
 		30F790981D2DFDAC008A74E7 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = Classes/ViewController/LoginViewController/LoginViewController.h; sourceTree = "<group>"; };
 		30F790991D2DFDAC008A74E7 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = Classes/ViewController/LoginViewController/LoginViewController.m; sourceTree = "<group>"; };
 		30F7909E1D2DFED4008A74E7 /* ic_email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_email.png; path = Resource/Images/ic_email.png; sourceTree = "<group>"; };
@@ -234,6 +245,7 @@
 		30F7909B1D2DFE2F008A74E7 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				30EF8AAF1D347F3A00E00188 /* bg.jpg */,
 				301B2FD11D3355F10018871C /* ic_search_white_36.png */,
 				308E68741D2F4A1400F3AB26 /* ic_settings_black_24dp.png */,
 				308E68721D2F496E00F3AB26 /* ic_search_black_24dp.png */,
@@ -263,6 +275,12 @@
 			children = (
 				30F790A71D2E4A32008A74E7 /* HomeViewController.h */,
 				30F790A81D2E4A32008A74E7 /* HomeViewController.m */,
+				307A80CE1D363868006FAA16 /* CustomCellDay.h */,
+				307A80CF1D363868006FAA16 /* CustomCellDay.m */,
+				307A80D11D363887006FAA16 /* CustomCellContent.h */,
+				307A80D21D363887006FAA16 /* CustomCellContent.m */,
+				307A80D71D363AFD006FAA16 /* CustomCellHeader.h */,
+				307A80D81D363AFD006FAA16 /* CustomCellHeader.m */,
 			);
 			name = HomeViewController;
 			sourceTree = "<group>";
@@ -355,6 +373,7 @@
 				30B328841D2F929F006BC2EA /* Menu Filled-16.png in Resources */,
 				30F790A01D2DFED4008A74E7 /* ic_email.png in Resources */,
 				307B5D941D2DE4D90084B307 /* Main.storyboard in Resources */,
+				30EF8AB01D347F3A00E00188 /* bg.jpg in Resources */,
 				308E68731D2F496E00F3AB26 /* ic_search_black_24dp.png in Resources */,
 				308E68691D2F41B600F3AB26 /* profile.png in Resources */,
 				30B328851D2F929F006BC2EA /* Menu Filled-32.png in Resources */,
@@ -424,10 +443,13 @@
 				307B5D971D2DE4D90084B307 /* crbios.xcdatamodeld in Sources */,
 				307B5D8E1D2DE4D90084B307 /* AppDelegate.m in Sources */,
 				30D4D2361D2DE98300C6D2CB /* RootViewController.m in Sources */,
+				307A80D31D363887006FAA16 /* CustomCellContent.m in Sources */,
 				30F790A51D2E49AA008A74E7 /* LeftViewController.m in Sources */,
 				307B5D8B1D2DE4D90084B307 /* main.m in Sources */,
 				30F790A91D2E4A32008A74E7 /* HomeViewController.m in Sources */,
 				301B2FD61D3371500018871C /* SearchViewController.m in Sources */,
+				307A80D91D363AFD006FAA16 /* CustomCellHeader.m in Sources */,
+				307A80D01D363868006FAA16 /* CustomCellDay.m in Sources */,
 				30F7909A1D2DFDAC008A74E7 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

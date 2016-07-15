@@ -13,9 +13,15 @@
 
 @interface HomeViewController () <UITableViewDelegate, UITableViewDataSource>
 
+@property (weak, nonatomic) IBOutlet UITableView *homeTableView;
+@property (weak, nonatomic) IBOutlet UIButton *btnCreateEvent;
+- (IBAction)btnCreateEvent:(id)sender;
+
 @end
 
 @implementation HomeViewController
+
+NSInteger _positionTableView = 0;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -49,6 +55,40 @@
         CustomCellContent *cellContent = [tableView dequeueReusableCellWithIdentifier:@"CellContent" forIndexPath:indexPath];
         return cellContent;
     }
+}
+
+- (NSInteger)getPositionFirstCellInTableView {
+    NSArray *visibleCellsList = [self.homeTableView visibleCells];
+    if (visibleCellsList.count > 0) {
+        NSIndexPath *indexPath = [self.homeTableView indexPathForCell:visibleCellsList[0]];
+        return indexPath.row;
+    }
+    return 0;
+}
+
+#pragma mark - Event Scroll
+
+- (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView {
+    _positionTableView = [self getPositionFirstCellInTableView];
+
+}
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+    NSInteger currentPosition = [self getPositionFirstCellInTableView];
+    if (currentPosition > _positionTableView) {
+        _positionTableView = currentPosition;
+        NSLog(@">> Scroll Down");
+        [self.btnCreateEvent setHidden:YES];
+    } else if (currentPosition < _positionTableView) {
+        _positionTableView = currentPosition;
+        NSLog(@">> Scroll Up");
+        [self.btnCreateEvent setHidden:NO];
+    }
+}
+
+#pragma mark - Click Button
+
+- (IBAction)btnCreateEvent:(id)sender {
 }
 
 @end
